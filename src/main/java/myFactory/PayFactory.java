@@ -11,7 +11,7 @@ package myFactory;
  * 修改作者 日期 修改内容<br>
  * <br>
  * ================================================<br>
- * Copyright 中仑网络科技有限公司 2020/2/24 .All rights reserved.<br>
+ *
  */
 public  class PayFactory {
 
