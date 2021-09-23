@@ -1,1 +1,104 @@
-<mxfile host="app.diagrams.net" modified="2021-07-27T07:42:20.027Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" version="14.9.2" etag="7I-aEW_ES3e4oPbnb_RZ" type="github"><diagram id="oarM0HKGG1xcpiazp4HU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-23T03:35:14.945Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="uAwpoYAYm7NOTdMK76uH" version="15.3.0" type="github">
+  <diagram id="oarM0HKGG1xcpiazp4HU" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-1" target="ga6xaN8mUOWN0gRQYGS6-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-1" target="ga6xaN8mUOWN0gRQYGS6-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-36" value="回调：终端告知服务端收到token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ga6xaN8mUOWN0gRQYGS6-35">
+          <mxGeometry x="-0.2615" y="2" relative="1" as="geometry">
+            <mxPoint x="100" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-1" value="终端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-2" target="ga6xaN8mUOWN0gRQYGS6-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-2" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-5" value="1.携带code请求token" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="440" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-10" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-6" target="ga6xaN8mUOWN0gRQYGS6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-6" target="ga6xaN8mUOWN0gRQYGS6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-6" value="是否回调删除code&lt;br&gt;（默认否）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="265" width="136" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-9" target="ga6xaN8mUOWN0gRQYGS6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-27" value="下发新token给终端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ga6xaN8mUOWN0gRQYGS6-26">
+          <mxGeometry x="-0.35" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-9" value="服务端刷新token逻辑，并删除code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-14" target="ga6xaN8mUOWN0gRQYGS6-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ga6xaN8mUOWN0gRQYGS6-23">
+          <mxGeometry x="-0.3273" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-14" target="ga6xaN8mUOWN0gRQYGS6-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-31" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ga6xaN8mUOWN0gRQYGS6-29">
+          <mxGeometry x="-0.2897" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-14" value="判断code使用次数&amp;gt;n?&lt;br&gt;（&lt;font color=&quot;#ff3333&quot;&gt;避免终端一直不回调重复多次使用code生成token&lt;/font&gt;）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="250" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-22" target="ga6xaN8mUOWN0gRQYGS6-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-22" value="删除code，返回code超limit，请重新获取code" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ga6xaN8mUOWN0gRQYGS6-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-30" value="生成新token，code:limit加1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-33" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ga6xaN8mUOWN0gRQYGS6-34" value="删除code" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="518" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
