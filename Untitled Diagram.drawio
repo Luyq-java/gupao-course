@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T09:05:36.951Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="vq0n36aOpJruFOzNI0UA" version="15.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T08:33:26.350Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="VTPKpQG71d7blisACZxw" version="16.2.4" type="github">
   <diagram id="oarM0HKGG1xcpiazp4HU" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,6 +94,116 @@
         </mxCell>
         <mxCell id="ga6xaN8mUOWN0gRQYGS6-34" value="删除code" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="518" y="890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-1" target="hUQQVmdVMtnaNt1VZYV0-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-1" value="端侧" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-2" target="hUQQVmdVMtnaNt1VZYV0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-2" value="服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="1169" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-6" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hUQQVmdVMtnaNt1VZYV0-5">
+          <mxGeometry x="-0.2691" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-3" target="hUQQVmdVMtnaNt1VZYV0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-3" value="校验是否是&lt;br&gt;&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;FAKE_TOKEN&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1290" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-7" value="直接返回&lt;span style=&quot;color: rgb(152 , 118 , 170) ; font-style: italic ; background-color: rgb(43 , 43 , 43) ; font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 9.8pt&quot;&gt;FAKE_TOKEN&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="365" y="1300" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-11" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hUQQVmdVMtnaNt1VZYV0-10">
+          <mxGeometry x="-0.4475" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-8" target="hUQQVmdVMtnaNt1VZYV0-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-8" value="refreshToken&lt;br&gt;是否有效" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="1420" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-12" value="生成新的accessToken和refreshToken返回" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1460" width="240" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-24" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-13" target="hUQQVmdVMtnaNt1VZYV0-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-13" target="hUQQVmdVMtnaNt1VZYV0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-13" value="是否开启自动加入&lt;br&gt;refreshToken黑名单开关" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1650" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-19" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hUQQVmdVMtnaNt1VZYV0-18">
+          <mxGeometry x="-0.561" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-16" target="hUQQVmdVMtnaNt1VZYV0-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-16" value="是否再refreshToken&lt;br&gt;黑名单内" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1530" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-20" value="返回FAKE_TOKEN" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1590" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-36" value="刷新失败" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hUQQVmdVMtnaNt1VZYV0-35">
+          <mxGeometry x="-0.678" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-22" value="&lt;div&gt;{&quot;error&quot;:&quot;invalid_grant&quot;,&lt;/div&gt;&lt;div&gt;&quot;error_description&quot;:&lt;/div&gt;&lt;div&gt;&quot;invalid_refresh_token&quot;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="1730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-31" style="edgeStyle=orthogonalEdgeStyle;shape=flexArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="950" y="1809.5" as="targetPoint" />
+            <mxPoint x="810" y="1809.5" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="880" y="1809.5" />
+              <mxPoint x="880" y="1809.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hUQQVmdVMtnaNt1VZYV0-23" target="hUQQVmdVMtnaNt1VZYV0-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-23" value="将refreshToken加入到黑名单中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hUQQVmdVMtnaNt1VZYV0-30" value="每天凌晨2点定时清楚黑名单" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="1760" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
